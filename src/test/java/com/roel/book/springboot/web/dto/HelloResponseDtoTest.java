@@ -1,4 +1,4 @@
-package com.roel.book.springboot.dto;
+package com.roel.book.springboot.web.dto;
 
 import com.roel.book.springboot.web.dto.HelloResponseDto;
 import org.assertj.core.api.Assertions;
