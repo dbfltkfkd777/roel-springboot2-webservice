@@ -1,4 +1,4 @@
-package com.roel.book.springboot;
+package com.roel.book.springboot.web;
 
 import com.roel.book.springboot.web.HelloController;
 import org.junit.jupiter.api.Test;

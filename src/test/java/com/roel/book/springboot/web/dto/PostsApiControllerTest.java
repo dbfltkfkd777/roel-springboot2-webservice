@@ -1,9 +1,7 @@
-package com.roel.book.springboot.web;
+package com.roel.book.springboot.web.dto;
 
 import com.roel.book.springboot.domain.posts.Posts;
 import com.roel.book.springboot.domain.posts.PostsRepository;
-import com.roel.book.springboot.web.dto.PostsSaveRequestDto;
-import com.roel.book.springboot.web.dto.PostsUpdateRequestDto;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
