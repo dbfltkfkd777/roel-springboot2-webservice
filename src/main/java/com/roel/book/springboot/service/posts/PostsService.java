@@ -2,6 +2,7 @@ package com.roel.book.springboot.service.posts;
 
 import com.roel.book.springboot.domain.posts.Posts;
 import com.roel.book.springboot.domain.posts.PostsRepository;
+import com.roel.book.springboot.web.dto.PostsListResponseDto;
 import com.roel.book.springboot.web.dto.PostsResponseDto;
 import com.roel.book.springboot.web.dto.PostsSaveRequestDto;
 import com.roel.book.springboot.web.dto.PostsUpdateRequestDto;
@@ -42,9 +43,9 @@ public class PostsService {
     }
 
     @Transactional(readOnly = true)
-    public List<PostsResponseDto> findAllDesc() {
+    public List<PostsListResponseDto> findAllDesc() {
         return postsRepository.findAllDesc().stream()
-                .map(PostsResponseDto::new)
+                .map(PostsListResponseDto::new)
                 .collect(Collectors.toList());
     }
 
