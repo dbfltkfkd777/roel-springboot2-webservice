@@ -1,10 +1,8 @@
 package com.roel.book.springboot.web.dto;
 
-import com.roel.book.springboot.web.dto.HelloResponseDto;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class HelloResponseDtoTest {
     @Test

@@ -34,8 +34,9 @@ dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
 	implementation('org.springframework.session:spring-session-jdbc')
 
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	developmentOnly ('org.springframework.boot:spring-boot-devtools')
+	testImplementation ('org.springframework.boot:spring-boot-starter-test')
+	testImplementation('org.springframework.security:spring-security-test')
 }
 // Junit 5
 test {
